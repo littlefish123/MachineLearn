@@ -23,8 +23,8 @@ conda install python=3.6
 e) Create a new conda environment to buld all modules using GPU.
 mkdir tensorflow
 cd tensorflow
-conda create --name PythonGPU
-f) Activate pythongpu
+conda create --name PythonGPU36 python=3.6
+f) Activate pythongpu36
 g) To install Keras & Tensorflow GPU related modules by :
 conda install -c anaconda keras-gpu
 conda install spyder
@@ -32,11 +32,12 @@ conda install -c anaconda pandas
 conda install -c anaconda xlrd
 conda install -c anaconda xlwt
 conda install -c anaconda seaborn
-conda install -c scikit-learn
+conda install -c anaconda scikit-learn
+conda install ipykernel
 conda install juypter notebook (otherwise, it will use python3.7 Jupyter Notebook by default)
 
 h) Add new Python kernal in Jupyter Notebook
-python -m ipykernal install --user --name tensorflow --display-name "TensorFlow-GPU"
+python -m ipykernal install --user --name pythongpu36 --display-name "TensorFlow-GPU"
 
 i) Execute DirectX Diagnosis "dxdiag" to check your Display Card supports driver model "WDDM".
 (I am using NVIDA Geoforce MX150)
