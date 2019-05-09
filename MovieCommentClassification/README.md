@@ -26,7 +26,7 @@ after checking the Jupyter log.
 
 Optimizer
 =========
-ADM
+ADAM
 
 LOSS Function
 =============
