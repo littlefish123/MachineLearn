@@ -5,26 +5,43 @@ I tried with both options
 
 1) Setup Tensorflow Container is pretty straight forward but Tensorflow libaries/python/jupyter are a bit old.
 https://docs.docker.com/toolbox/toolbox_install_windows/
+
 a) Install Docker ToolBox Community Edition since my computer install with Win10 HOME Edition.
+
 b) Run "Docker QuickStart Terminal' icon.
+
 c) Navigate to your bash.exe location.
+
 d) It will create docker machine when first time running this command.
+
 e) To test installation, "docker run hello-world"
+
 f) docker pull tensorflow/tensorflow/t
+
 g) docker run -it tensorflow/tensorflow bash
 
+
 2) Setup Tensorflow GPU with GPU Driver enabled.
+
 a) Download and install Anaconda and select Python 3.7
+
 b) Open Anaconda Prompt and open "Base" anaconda
+
 c) The latest Tensorflow GPU version is 1.13.1, which I found the installation does not work on 1st trail.
+
 After checking, this Tensorflow version only works with Python v3.6.
 d) Download Python version to 3.6 in 2nd trail
+
 conda install python=3.6
+
 e) Create a new conda environment to buld all modules using GPU.
+
 mkdir tensorflow
 cd tensorflow
 conda create --name PythonGPU36 python=3.6
+
 f) Activate pythongpu36
+
 g) To install Keras & Tensorflow GPU related modules by :
 conda install -c anaconda keras-gpu
 conda install spyder
