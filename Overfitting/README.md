@@ -22,6 +22,7 @@ The "dropout rate" is the fraction of the features that are being zeroed-out; it
 Purpose
 ========
 (1) This program firstly define a baseline model with 16 hidden units in each layer.
+
 It demonstrate how to trigger overfitting by define a smaller model (4 hidden units per layer)
 and big model (512 hidden units per layer).
 
@@ -32,8 +33,11 @@ and its performance degrades much more slowly once it starts overfitting.
 larger network begins overfitting almost right away, after just one epoch, and overfits much more severely
 
 (3) Define L2 Regularization to improve overfitting issue.
+
 By comparing ""Binary Crossentropy" diagram, L2 regularized model has become much more resistant to overfitting than the baseline model,
+
 (dotted line is lower than baseline model), even though both models have the same number of parameters.
+
 
 (4) Define DropOut Regularization to improve fitting issue.
 
@@ -41,61 +45,97 @@ Baseline Model
 ==============
 Sequential Model
 
+
 1st Layer
+
 Hidden Units : 16
+
 Activation Method=RELU
+
 
 2rd Layer
+
 Hidden Units : 16
+
 Activation Method=RELU
 
+
 3rd Layer
+
 Hidden Unit : 1
-Activatio Method=sigmoid
+
+Activation Method=sigmoid
+
 
 Optimizer
+
 ADAM
 
+
 Loss Function
+
 Binary Crossentropy
 
+
 Epochs : 20
+
 Batch size : 512
+
 
 Smaller Model
 =============
 All setup as Baseline Model except below parameters.
+
 lst Layer
+
 Hidden Units : 4
 
+
 2rd Layer
+
 Hidden Units : 4
+
 
 
 Bigger Model
 ============
 1st Layer 
+
 Hidden Units : 512
 
+
 2rd Layer
+
 Hidden Units : 512
+
 
 L2 Model
 ========
 1st Layer
+
 Hidden Units : 16
+
 Regularizer = L2 0.001
 
+
 2rd Layer
+
 Hidden Units : 16
+
 Regularizer = L2 0.001
+
 
 DropOut Model
 =============
 1st Layer
+
 Hidden Units : 16
+
 Dropout Rate=0.5
 
+
 2rd Layer 
+
 Hidden Units : 16
+
 Dropout Rate=0.5
