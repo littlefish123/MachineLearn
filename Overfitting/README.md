@@ -36,3 +36,66 @@ By comparing ""Binary Crossentropy" diagram, L2 regularized model has become muc
 (dotted line is lower than baseline model), even though both models have the same number of parameters.
 
 (4) Define DropOut Regularization to improve fitting issue.
+
+Baseline Model
+==============
+Sequential Model
+
+1st Layer
+Hidden Units : 16
+Activation Method=RELU
+
+2rd Layer
+Hidden Units : 16
+Activation Method=RELU
+
+3rd Layer
+Hidden Unit : 1
+Activatio Method=sigmoid
+
+Optimizer
+ADAM
+
+Loss Function
+Binary Crossentropy
+
+Epochs : 20
+Batch size : 512
+
+Smaller Model
+=============
+All setup as Baseline Model except below parameters.
+lst Layer
+Hidden Units : 4
+
+2rd Layer
+Hidden Units : 4
+
+
+Bigger Model
+============
+1st Layer 
+Hidden Units : 512
+
+2rd Layer
+Hidden Units : 512
+
+L2 Model
+========
+1st Layer
+Hidden Units : 16
+Regularizer = L2 0.001
+
+2rd Layer
+Hidden Units : 16
+Regularizer = L2 0.001
+
+DropOut Model
+=============
+1st Layer
+Hidden Units : 16
+Dropout Rate=0.5
+
+2rd Layer 
+Hidden Units : 16
+Dropout Rate=0.5
