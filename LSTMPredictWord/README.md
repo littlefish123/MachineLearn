@@ -22,8 +22,9 @@ The index of the element with highest probability is the predicted index of symb
 Next Input activation = one-hot vector*weight(out) + biases(out)
 
 After the model is trained, this program prompts to input 3 words and it'll automatically continue
-to predict up to 32 predictions.
+to predict up to 32 words.
 
+It takes 30min to train even Jupyter Notebook log showing to use GPU.
 
 Parameters
 ==========
