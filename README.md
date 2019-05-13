@@ -20,3 +20,4 @@ Exploration Topics
 * Movie Commentary Classification (MovieCommentClassification, Model : Sequential)
 * Predict Word after story learning (LSTMPredictWord, Model : LSTM)
 * Overfitting and Regularization (Overfitting)
+ 
