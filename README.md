@@ -5,11 +5,17 @@ This Machine Learning GIT repository with all source code while I explore the ma
 Software & Hardware
 ===================
 Tensorflow paltform 1.13.1
+
 Python - Keras,numpy,pandas,matplatform,Scikit-learn
+
 CUDA
+
 cuDNN
+
 Python 
+
 GPU NAIVIDA
+
 Jupyter Notebook
 
 Exploration Topics
