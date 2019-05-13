@@ -11,3 +11,10 @@ cuDNN
 Python 
 
 GPU NAIVIDA
+
+* Handwriting Number Image Recognition
+* Fashion Image Recognition
+* Car Model MPV Linear Regression Projection
+* Movie Commentary Classification
+* Predict Word after story learning
+* Overfitting and Regularization
