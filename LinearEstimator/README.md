@@ -29,30 +29,44 @@ labels: A Tensor containing batches of labels.
 Example 1
 =========
 Using AGE (numeric) as feature input layer
+
 Train & Evaluate Model
+
 Accuracy : 78%
+
 
 Example 2
 =========
 Using multiple numeric fields - EDUCATION,CAPTIAL GAIN,CAPTIAL LOSS,Hours per week as input layer
+
 Train & Evaluate Model
+
 Accuracy : 78%
+
 
 Example 3
 =========
 Use AGE & RELATIONSHIP(Categorical column) to be input layer
+
 Train & Evaluate Model
+
 Accuracy : 74%
+
 
 Example 4
 =========
 if we don't know the set of possible values in advance, use the categorical_column_with_hash_bucket instead.
+
 Use OCCUPATION (Categorial Column with Hash Bucket)
+
 Train & Evaluate Model
+
 Accuracy : 83%
 
 More direct relationship by using occupation with salary income than using
+
 AGE + RElATIONSHIP
+
 
 Example 5
 =========
