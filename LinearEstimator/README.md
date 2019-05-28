@@ -18,12 +18,12 @@ Approach 2
 For larger datasets should stream data from disk and input_fn() using
 tf.decode_csv and tf.data.TextLineDataset.
 
-# When building a tf.estimator model, the input data is specified by using an input function (or input_fn).
-# This builder function returns a tf.data.Dataset of batches of (features-dict, label) pairs. 
-# The input builder function returns the following pair:
+When building a tf.estimator model, the input data is specified by using an input function (or input_fn).
+This builder function returns a tf.data.Dataset of batches of (features-dict, label) pairs. 
+The input builder function returns the following pair:
 
-# features: A dict from feature names to Tensors or SparseTensors containing batches of features.
-# labels: A Tensor containing batches of labels.
+features: A dict from feature names to Tensors or SparseTensors containing batches of features.
+labels: A Tensor containing batches of labels.
 
 
 Example 1
@@ -58,7 +58,8 @@ Example 5
 =========
 Derived Feature Columns
  Learn the fine-grained correlation between income and each age group separately, we can leverage bucketization. Bucketization is a process of dividing the entire range of a continuous feature into a set of consecutive buckets, and then converting the original numerical feature into a bucket ID (as a categorical feature) depending on which bucket that value falls into.
-# Define a bucketized_column over age as:
+ 
+Define a bucketized_column over age as:
 age_buckets = tf.feature_column.bucketized_column(
     age, boundaries=[18, 25, 30, 35, 40, 45, 50, 55, 60, 65])
 	
@@ -83,13 +84,19 @@ crossed_columns = [
 ]
 
 Train & Evaluate Model
+
 Accuracy : 83%
 
+
 Add L1 Regularization to improve Overfitting issue
+
 Accuracy : 84%
 
+
 Add L2 Regularization to improve Overfitting issue
+
 Accuracy : 84%
+
 
 Plot Weight Distribution Graph to compare Base Model, L1 Regularization and L2 Regularization Weight Distribution
 
