@@ -21,9 +21,10 @@ Jupyter Notebook
 Exploration Topics
 ==================
 * Handwriting Number Image Recognition (CNNHandWrite, Model : CNN)
-* Fashion Image Recognition )(ImageRecognition, Model : Sequential)
+* Fashion Image Recognition (ImageRecognition, Model : Sequential)
 * Car Model MPV Linear Regression Projection (Regression, Model : Linear Regression)
 * Movie Commentary Classification (MovieCommentClassification, Model : Sequential)
 * Predict Word after story learning (LSTMPredictWord, Model : LSTM)
 * Overfitting and Regularization (Overfitting)
+* Income Predication (LinearEstimator, Model : Logistic RegressionModel using Estimator)
  
