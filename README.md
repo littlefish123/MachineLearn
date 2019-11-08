@@ -27,4 +27,5 @@ Exploration Topics
 * Predict Word after story learning (LSTMPredictWord, Model : LSTM)
 * Overfitting and Regularization (Overfitting)
 * Income Predication (LinearEstimator, Model : Logistic RegressionModel using Estimator)
+* Maze Game (ReinforceMaze Model : Reinforcement Learning + Q-Learning)
  
