@@ -27,4 +27,5 @@ Exploration Topics
 * Predict Word after story learning (LSTMPredictWord, Model : LSTM)
 * Overfitting and Regularization (Overfitting)
 * Income Predication (LinearEstimator, Model : Logistic RegressionModel using Estimator)
+* Google Translate AutoML & API - English to Spanish Translate 
  
