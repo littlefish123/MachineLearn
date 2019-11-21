@@ -26,6 +26,5 @@ Exploration Topics
 * Movie Commentary Classification (MovieCommentClassification, Model : Sequential)
 * Predict Word after story learning (LSTMPredictWord, Model : LSTM)
 * Overfitting and Regularization (Overfitting)
-* Income Predication (LinearEstimator, Model : Logistic RegressionModel using Estimator)
+* Income Predication (LinearEstimator, Model : Logistic RegressionModel using Estimator)* Google Translate AutoML & API - English to Spanish Translate 
 * Maze Game (ReinforceMaze Model : Reinforcement Learning + Q-Learning)
- 
