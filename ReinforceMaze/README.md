@@ -36,12 +36,19 @@ In our model, the rat will be encouraged to find the shortest path to the target
 4. 3-DOWN
 
 a. Rewards will be floating points ranging from -1.0 to 1.0
+
 b. Each move from one state to another will be rewarded (the rat get points) by a positve or negative (penalty).
+
 c. Each move will cost the rate -0.04 points. This should discourage the rat from wandering around and get to the cheese in the shortest route.
+
 d. The maximum reward of 1.0 points is given when the rat hits the cheese.
+
 e. An attempt to enter the bloaked cell will cost -0.75 points.	 The rate will learn how to avoid this penality.
+
 f. Same rule hold for an attemp to move outside the boundary of maze.
+
 g. The rate will be penilized by -0.25 points for any move to a cell which it has already visited before.
+
 h. To avoid infinite loops and senseless wandering, the game will ended (**lose**) once the total reward of the rat is below the negative 
    threshold (-0.5 * maze.size). The rat has lost its way and alredy made too many errors.
    
