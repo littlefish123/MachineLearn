@@ -93,7 +93,7 @@ a2=π(s2)
 ....
 an=π(sn−1)
  
-<<<<<<< HEAD
+
 Q-Learning and Bellman Equation
 ================================
 The trick that was used by startups such as Google DeepMind for finding  π  was to start with a different kind of function  Q(s,a)  called best utility function (and sometimes best quality function, from which the Q letter and Q-learning terms were coined).
@@ -179,6 +179,3 @@ The most suitable activation function is SReLU (the S-shaped relu)
 Our optimizer is RMSProp
 Our loss function is mse (Mean Squared Error).
 We use two hidden layers, each of size equals to the maze size. The input layer has also the same size as the maze since it accepts the maze stae as input. The output layer size is the same as the number of actions (4 in our case), since its outputs the estimated q-value for each action. (we need to take the action with the maximal q-value for playing in the game
-=======
-6. 
->>>>>>> 1344c4a2451a8a3c5c2b39c6e6f7eecbe9abb2f0
