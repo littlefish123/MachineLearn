@@ -176,6 +176,10 @@ Buildng Neural Network
 Choosing the correct parameters for a suitable model is not easy and requires some experience and many experiments. In the case of a maze we found that:
 
 The most suitable activation function is SReLU (the S-shaped relu)
+
 Our optimizer is RMSProp
+
 Our loss function is mse (Mean Squared Error).
+
 We use two hidden layers, each of size equals to the maze size. The input layer has also the same size as the maze since it accepts the maze stae as input. The output layer size is the same as the number of actions (4 in our case), since its outputs the estimated q-value for each action. (we need to take the action with the maximal q-value for playing in the game
+
