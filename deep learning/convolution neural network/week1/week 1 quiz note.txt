@@ -1,0 +1,49 @@
+Convolutional Deep Learning Quiz 1
+==================================
+?1
+
+2. 300 by 300 (RGB) Image = 300x300x3 
+    100 neurons fully connected
+	
+	300 x 300 x 3 + 1 x 100
+
+
+3.   300 by 300 (RGB) Image = 300x300x3
+     n = 300, c = 3
+	 number of filter: 100, filter dimension (f) = 5
+	 
+	 
+	 number of parameters :  5 (filter dimension) x 5 (filter) x 3 (RGB) x 100  + 1 x 100
+	 
+	 = 7600
+	 
+
+	Number of parameters: 5 x 5 x 100 +1 = 2501 
+
+4.    floor(((n + 2p -f) / s) + 1)
+
+      floor((63 + 2*0 - 7)/2 + 1) = 29
+	  
+	  volume output : 29 * 29 * 32 (number of filters)
+	  
+
+5. Dimension of result volume(after padding)
+      8 is number of channel and  no change after padding
+     2 pad + 15 + 2 pad = 19 x 19 x 8
+
+
+6. Same Padding : Pad so that output size is the same input size
+    n + 2p -f + 1 = n
+	p = (f-1)/2
+	
+	p = (7-1)/2 = 3
+	
+
+7. output volumn :
+      floor(((n + 2p -f) / s) + 1)
+	  
+	  = floor((32 + 2*0 - 2) / 2) + 1) = 16
+	  
+	  output volume : 16 * 16 * 16
+	  
+	  
