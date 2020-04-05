@@ -16,11 +16,12 @@ It's pretty straight-forward and hope you enjoy as well.
 
 ### 1. Neural Network and Deep Learning
 * Week 1
-	* [Quiz 1] (https://github.com/littlefish123/MachineLearn/blob/master/deep%20learning/neural%20network%20and%20deep%20learning/week1/Introduction%20to%20deep%20learning%20_%20Coursera%20quiz.html)
+	* <a href="https://github.com/littlefish123/MachineLearn/blob/master/deep%20learning/neural%20network%20and%20deep%20learning/week1/Introduction%20to%20deep%20learning%20_%20Coursera%20quiz.html">[Quiz 1]</a>
 
 * Week 2
-	* [Quiz 2]
-	* [Logistic Regression as a Neural Network]
+	* <a href="https://github.com/littlefish123/MachineLearn/blob/master/deep%20learning/neural%20network%20and%20deep%20learning/week2/Neural%20Network%20Basics%20_%20Coursera%20quiz.html">[Quiz 2]</a>
+	* <a href="https://github.com/littlefish123/MachineLearn/blob/master/deep%20learning/neural%20network%20and%20deep%20learning/week2/python%20basic/Python_Basics_With_Numpy_v3a.ipynb">Python Basic</a>
+	* <a href="https://github.com/littlefish123/MachineLearn/blob/master/deep%20learning/neural%20network%20and%20deep%20learning/week2/Logistic%20Regression/Logistic_Regression_with_a_Neural_Network_mindset_v6a.ipynb">[Logistic Regression as a Neural Network]</a>
 
 * Week 3
 	* [Quiz 3]
