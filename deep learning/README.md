@@ -16,7 +16,7 @@ It's pretty straight-forward and hope you enjoy as well.
 
 ### 1. Neural Network and Deep Learning
 * Week 1
-	* [Quiz 1]
+	* [Quiz 1] (https://github.com/littlefish123/MachineLearn/blob/master/deep%20learning/neural%20network%20and%20deep%20learning/week1/Introduction%20to%20deep%20learning%20_%20Coursera%20quiz.html)
 
 * Week 2
 	* [Quiz 2]
