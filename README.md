@@ -20,15 +20,16 @@ Jupyter Notebook
 
 Exploration Topics
 ==================
-* Facial Recognition (Folder: FaceRecognition, Model : Siamese Network)
-* Car Object Detection (Folder: CarDetection, Model :YOLO)
-* Finger Image Recognition (Folder: FingerRecognition, Model : Residual Network)
-* Emotion Detection in images of Faces (Folder: SmileRecognition, Model : Convolution Neural Network)
-* Handwriting Number Image Recognition (Folder: CNNHandWrite, Model : CNN)
-* Fashion Image Recognition (Folder: ImageRecognition, Model : Sequential)
-* Car Model MPV Linear Regression Projection (Folder : Regression, Model : Linear Regression)
-* Movie Commentary Classification (Folder: MovieCommentClassification, Model : Sequential)
-* Predict Word after story learning (Folder: LSTMPredictWord, Model : LSTM)
-* Income Predication (Folder: LinearEstimator, Model : Logistic RegressionModel using Estimator)* Google Translate AutoML & API - English to Spanish Translate 
-* Maze Game (Folder : ReinforceMaze, Model : Reinforcement Learning + Q-Learning)
-* Overfitting and Regularization (Overfitting)
+* <a href="https://github.com/littlefish123/MachineLearn/blob/master/deep%20learning/convolution%20neural%20network/week4/face%20recognition/Face_Recognition_v3a.ipynb">Facial Recognition (Model : Siamese Network)</a>
+* <a href="https://github.com/littlefish123/MachineLearn/blob/master/deep%20learning/convolution%20neural%20network/week3/Autonomous_driving_application_Car_detection_v3a.ipynb">Car Object Detection (Model :YOLO)</a>
+* <a href="https://github.com/littlefish123/MachineLearn/blob/master/deep%20learning/convolution%20neural%20network/week2/Convolution_model_Application_v1a.ipynb">Finger Image Recognition (Model : Residual Network</a>
+* <a href="https://github.com/littlefish123/MachineLearn/blob/master/deep%20learning/convolution%20neural%20network/week2/Keras_Tutorial_v2a%20(smile%20recognition).ipynb">Emotion Detection in images of Faces (Model : Convolution Neural Network)</a>
+* <a href="https://github.com/littlefish123/MachineLearn/tree/master/CNNHandWrite">Handwriting Number Image Recognition (Model : CNN)</a>
+* <a href="https://github.com/littlefish123/MachineLearn/tree/master/ImageRecogition">Fashion Image Recognition (Model : Sequential)</a>
+* <a href="https://github.com/littlefish123/MachineLearn/tree/master/Regression">Car Model MPV Linear Regression Projection (Model : Linear Regression)</a>
+* <a href="https://github.com/littlefish123/MachineLearn/tree/master/MovieCommentClassification">Movie Commentary Classification (Model : Sequential)</a>
+* <a href="https://github.com/littlefish123/MachineLearn/tree/master/LSTMPredictWord">Predict Word after story learning (Model : LSTM)</a>
+* <a href="https://github.com/littlefish123/MachineLearn/tree/master/LinearEstimator">Income Predication (Model : Logistic RegressionModel using Estimator)</a>
+* <a href="https://github.com/littlefish123/MachineLearn/tree/master/GoogeTranslate">Google Translate AutoML & API - English to Spanish Translate</a>
+* <a href="https://github.com/littlefish123/MachineLearn/tree/master/ReinforceMaze">Maze Game (Model : Reinforcement Learning + Q-Learning)</a>
+* <a href="https://github.com/littlefish123/MachineLearn/tree/master/Overfitting">Overfitting and Regularization (Overfitting)</a>
