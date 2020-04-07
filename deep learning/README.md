@@ -24,7 +24,7 @@ It's pretty straight-forward and hope you enjoy as well.
 	* <a href="https://github.com/littlefish123/MachineLearn/blob/master/deep%20learning/neural%20network%20and%20deep%20learning/week2/Logistic%20Regression/Logistic_Regression_with_a_Neural_Network_mindset_v6a.ipynb">[Logistic Regression as a Neural Network]</a>
 
 * Week 3
-	* <a href-"https://github.com/littlefish123/MachineLearn/blob/master/deep%20learning/neural%20network%20and%20deep%20learning/week3/Shallow%20Neural%20Networks%20_%20Coursera%20quiz.html">[Quiz 3]</a>
+	* <a href="https://github.com/littlefish123/MachineLearn/blob/master/deep%20learning/neural%20network%20and%20deep%20learning/week3/Shallow%20Neural%20Networks%20_%20Coursera%20quiz.html">[Quiz 3]</a>
 	* <a href="https://github.com/littlefish123/MachineLearn/blob/master/deep%20learning/neural%20network%20and%20deep%20learning/week3/Planer%20Classification/Planar_data_classification_with_onehidden_layer_v6c.ipynb">[Planar Data Classification]</a>
 	
 * Week 4
