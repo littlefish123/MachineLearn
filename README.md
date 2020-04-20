@@ -22,9 +22,9 @@ Exploration Topics
 ==================
 * <a href="https://github.com/littlefish123/MachineLearn/blob/master/deep%20learning/convolution%20neural%20network/week4/face%20recognition/Face_Recognition_v3a.ipynb">Facial Recognition (Model : Siamese Network)</a>   
 * <a href="https://github.com/littlefish123/MachineLearn/blob/master/deep%20learning/convolution%20neural%20network/week3/Autonomous_driving_application_Car_detection_v3a.ipynb">Car Object Detection (Model :YOLO)</a>
-  <img src="https://github.com/littlefish123/MachineLearn/blob/master/deep%20learning/logo/card1.JPG" alt="Car Detection Output" style="width:500px;height:600px;">
-  <img src="https://github.com/littlefish123/MachineLearn/blob/master/deep%20learning/logo/card2.JPG" alt="Car Detection Output" style="width:500px;height:600px;">
-  <img src="https://github.com/littlefish123/MachineLearn/blob/master/deep%20learning/logo/cardetect3.JPG" alt="Car Detection Output" style="width:500px;height:600px;">
+  <img src="https://github.com/littlefish123/MachineLearn/blob/master/deep%20learning/logo/card1.JPG" alt="Car Detection Output" style="width:50px;height:60px;">
+  <img src="https://github.com/littlefish123/MachineLearn/blob/master/deep%20learning/logo/card2.JPG" alt="Car Detection Output" style="width:500px;height:60px;">
+  <img src="https://github.com/littlefish123/MachineLearn/blob/master/deep%20learning/logo/cardetect3.JPG" alt="Car Detection Output" style="width:50px;height:60px;">
   
   
 * <a href="https://github.com/littlefish123/MachineLearn/blob/master/deep%20learning/convolution%20neural%20network/week2/Convolution_model_Application_v1a.ipynb">Finger Image Recognition (Model : Residual Network</a>
