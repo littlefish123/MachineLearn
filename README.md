@@ -26,6 +26,7 @@ Exploration Topics
   <img src="https://github.com/littlefish123/MachineLearn/blob/master/deep%20learning/logo/card2.JPG" alt="Car Detection Output" style="width:500px;height:600px;">
   <img src="https://github.com/littlefish123/MachineLearn/blob/master/deep%20learning/logo/cardetect3.JPG" alt="Car Detection Output" style="width:500px;height:600px;">
   
+  
 * <a href="https://github.com/littlefish123/MachineLearn/blob/master/deep%20learning/convolution%20neural%20network/week2/Convolution_model_Application_v1a.ipynb">Finger Image Recognition (Model : Residual Network</a>
 * <a href="https://github.com/littlefish123/MachineLearn/blob/master/deep%20learning/convolution%20neural%20network/week2/Keras_Tutorial_v2a%20(smile%20recognition).ipynb">Emotion Detection in images of Faces (Model : Convolution Neural Network)</a>
 * <a href="https://github.com/littlefish123/MachineLearn/tree/master/CNNHandWrite">Handwriting Number Image Recognition (Model : CNN)</a>
