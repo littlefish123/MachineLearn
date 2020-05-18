@@ -75,7 +75,7 @@ h) Add new Python kernal in Jupyter Notebook
 python -m ipykernal install --user --name pythongpu36 --display-name "TensorFlow-GPU"
 
 i) Execute DirectX Diagnosis "dxdiag" to check your Display Card supports driver model "WDDM".
-
+ "
 (I am using NVIDA Geoforce MX150)
 
 j) Install the latest NVIDIA Device Driver by "Geforce Experience" 
