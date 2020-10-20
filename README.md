@@ -14,7 +14,7 @@ cuDNN
 
 Python 
 
-GPU NAVIDA
+GPU NAVIDIA
 
 Jupyter Notebook
 
