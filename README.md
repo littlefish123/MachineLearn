@@ -36,3 +36,4 @@ Exploration Topics
 * <a href="https://github.com/littlefish123/MachineLearn/tree/master/GoogeTranslate">Google Translate AutoML & API - English to Spanish Translate</a><br>
 * <a href="https://github.com/littlefish123/MachineLearn/tree/master/ReinforceMaze">Maze Game (Model : Reinforcement Learning + Q-Learning)</a><br>
 * <a href="https://github.com/littlefish123/MachineLearn/tree/master/Overfitting">Overfitting and Regularization (Overfitting)</a><br>
+* <a href="https://github.com/littlefish123/MachineLearn/tree/master/NER_Spacy">Named Entity Recognition (Model: Spacy)</a><br>
