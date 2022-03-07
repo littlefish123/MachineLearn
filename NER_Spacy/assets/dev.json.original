@@ -1,0 +1,13 @@
+[
+  ["Where is Berlin?",{"entities":[[9,15,"LOC"]]}],
+  ["I like Shaka Khan.",{"entities":[[7,17,"PERSON"]]}],
+  ["24MAR2022 testing testing",{"entities":[[0,9,"DATE"]]}],
+  ["888-183280-123 accont number",{"entities":[[0,14,"ACCNUM"]]}],
+  ["00700",{"entities":[[0,5,"STOCKCODE"]]}],
+  ["HKD 54.10000",{"entities":[[0,12,"PRICE"]]}],
+  ["5,673,001",{"entities":[[0,9,"QTY"]]}],
+  ["100,900",{"entities":[[0,7,"QTY"]]}],
+  ["10,056,900",{"entities":[[0,10,"QTY"]]}],
+  ["00005 HSBC HOLDINGS PLC",{"entities":[[0,23,"STOCKCODE"]]}],
+  ["00005   HSBC HOLDINGS PLC",{"entities":[[0,25,"STOCKCODE"]]}]
+]

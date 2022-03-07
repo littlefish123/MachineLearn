@@ -17,7 +17,6 @@ Blog : https://vijay-anandan.medium.com/custom-named-entity-recognition-ner-mode
 
 Explain
 =======
-
 <python -m spacy train config.cfg --paths.train ./train.spacy --paths.dev ./dev.spacy>
 
 Dev --> Validation Data 

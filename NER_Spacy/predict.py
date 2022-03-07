@@ -6,7 +6,7 @@ from pandas import DataFrame
 
 def displayResult(doc):
     keyword = ['DATE', 'STOCKCODE', 'PRICE', 'NAME', 'ACCNUM']
-
+    keywordDict = {"text":[], "label":[]}
     df = DataFrame(keywordDict)
     for ent in doc.ents:
         if ent.label_ in keyword:
