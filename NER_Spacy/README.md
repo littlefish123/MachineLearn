@@ -18,15 +18,24 @@ Blog : https://vijay-anandan.medium.com/custom-named-entity-recognition-ner-mode
 Explain
 =======
 <python -m spacy train config.cfg --paths.train ./train.spacy --paths.dev ./dev.spacy>
+
 Dev --> Validation Data 
+
 train --> Training Data 
+
 
 Output
 ======
+
 E — Epochs
+
 optimization steps
+
 LOSS NER — model loss
+
 ENTS_F, ENTS_P, and ENTS_R — precision, recall and fscore of the model
+
+
 
 10. mkdir images
 11. python predict.py
