@@ -1,0 +1,1 @@
+[('Date : 28FEB2022', {'entities': [(7, 16, 'DATE')]}), ('A/C name : NG YEE MEI', {'entities': [(11, 21, 'NAME')]}), ('A/C no : 773-183280-085', {'entities': [(9, 23, 'ACCTNUM')]}), ('Branch HEAD OFFICE Period : From 01FEB2022 to 28FEB2022', {'entities': [(46, 55, 'DATE'), (33, 42, 'DATE')]}), ('3,001 3,001 HKD 54.10000 HKD 162,354.10', {'entities': [(6, 11, 'QTY')]})]
