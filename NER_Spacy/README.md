@@ -13,14 +13,19 @@ Blog : https://vijay-anandan.medium.com/custom-named-entity-recognition-ner-mode
 8. python -m spacy init config --lang en --pipeline ner configs/config.cfg --force
 9. mkdir training   
 9. python -m spacy train configs/config.cfg --output training/ --paths.train corpus/train.spacy --paths.dev corpus/dev.spacy --training.eval_frequency 10 --training.max_steps 100 --gpu-id -1
-#Explain:
-#<python -m spacy train config.cfg --paths.train ./train.spacy --paths.dev ./dev.spacy>
-#Dev --> Validation Data 
-#train --> Training Data 
-# E — Epochs
-# — optimization steps
-# LOSS NER — model loss
-# ENTS_F, ENTS_P, and ENTS_R — precision, recall and fscore of the model
+Explain
+-------
+<python -m spacy train config.cfg --paths.train ./train.spacy --paths.dev ./dev.spacy>
+Dev --> Validation Data 
+train --> Training Data 
+
+Output
+------
+E — Epochs
+optimization steps
+LOSS NER — model loss
+ENTS_F, ENTS_P, and ENTS_R — precision, recall and fscore of the model
+
 10. mkdir images
 11. python predict.py
 check result under images/sentences.htm
