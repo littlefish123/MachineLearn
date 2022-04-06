@@ -1,0 +1,1 @@
+python -m spacy  convert -c ner -s -n 100 -b en_core_web_sm dev.json .
