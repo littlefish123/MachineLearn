@@ -1,0 +1,5 @@
+# swheel==0.1.61
+jaxlib==0.1.61
+jax==0.2.9
+numpy
+trax
